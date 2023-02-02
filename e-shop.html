@@ -1,0 +1,1286 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/bca3ec24e7.js
+" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/bca3ec24e7.js
+" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./e-shop.css">
+  <script src="https://kit.fontawesome.com/bca3ec24e7.js
+" crossorigin="anonymous"></script>
+</head>
+<link rel="stylesheet" href="./style.css">
+
+
+<body>
+
+
+  <nav class="navbar  border border-buttom-3  justify-content-evenly ">
+    <div class="d-flex ">
+      <a href="" class="nav-link p-1 rounded-0 border-end m-2"><i class="fa-solid fa-headset"></i> +060(800)801-582 </a>
+      <a href="" class="nav-link p-1 rounded-0  m-2"><i class="fa-solid fa-envelope"></i> nazirislam922@gmail.com </a>
+    </div>
+
+    <div class="d-sm-flex d-flex">
+      <a href="" class="nav-link rounded-0 p-1 border-end m-2"><i class="fa-solid fa-location-dot"></i> Store location</a>
+      <a href="" class="nav-link p-1 rounded-0 border-end m-2"><i class="fa-regular fa-calendar-minus"></i> Daly deal</a>
+      <a href="" class="nav-link p-1 rounded-0 border-end m-2"><i class="fa-solid fa-user"></i> My Account</a>
+      <a href="" class="nav-link rounded-0 p-1  m-2"><i class="fa-solid fa-power-off"></i> Login</a>
+    </div>
+  </nav>
+
+
+  <!-- <nav class="navbar navbar-expand-lg bg-light justify-content-center m-0"></nav> -->
+
+  <div class="row m-0 m-4 px-5  ">
+    <div class="d-flex">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <div class="d-flex">
+            <h1>Eshop</h1><a href=""><i class="fa-solid ii fa-circle"></i></a>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+
+      <div class="col-4 ">
+        <div class="input-group mb-3">
+          <select name="cars" id="cars">
+            <option value="volvo">All Cantegory</option>
+            <option value="saab">Mobile</option>
+            <option value="mercedes">Leptop</option>
+            <option value="audi">Ring</option>
+          </select>
+          <input type="text" class="form-control " placeholder="Search Product Here" aria-label="Search Product Here"
+            aria-describedby="basic-addon2">
+          <span class="input-group-text bg-dark" id="basic-addon2"> <a href=""><i
+                class="fa-solid text-light fa-magnifying-glass"></i></a></span>
+        </div>
+
+      </div>
+
+      <div>
+        <div class="d-none  d-lg-flex mx-3 ">
+          <i class="fa-regular fa-heart ms-5"></i>
+          <i class="fa-regular fa-user ms-5"></i>
+          <li class="show-cart nav-link"> <i class="fa-solid icon0 fa-bag-shopping ms-5"></i>
+            <div class="cart-hover card w-100">
+              <div class="card-header d-flex justify-content-between">
+                <h4>2 ITEMS</h4>
+                <h4>VIEW CART</h4>
+              </div>
+
+              <div class="header-body d-flex border p-3">
+                <div>
+                  <h5>Woman Necklace</h5>
+                  <span>lx-$35.00</span>
+                </div>
+                <img class="w-25" src="./img/Necklace.png" alt="">
+              </div>
+              <div class="header-body d-flex border p-3">
+                <div>
+                  <h5>Woman Ring</h5>
+                  <span>lx-$99.00</span>
+                </div>
+                <img class="w-25" src="./img/wedding-ring-png-images-wedding-ring-clipart-14.png" alt="">
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <h4>TOTAL</h4>
+                <h4>$134.00</h4>
+              </div>
+
+              <a class="btn btn-dark d-block  m-2" href="">CHECKOUT</a>
+            </div>
+          </li>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </nav>
+
+
+  <nav class="navbar m-0 row row-cols-none    bg-dark d-flex" style="height:70px;">
+    <div class="col">
+      <ul>
+        <i class="fa-solid text-light dip icon1 fa-bars"> CATEGORIES</i>
+    </div>
+<div class="col d-none d-xl-block">
+    <div class="navbar ">
+      <ul class="nav">
+        <li class="nav-item"><a class="text-light a1 nav-link " href="">Home</a></li>
+        <li class="nav-item"><a class="text-light a1 nav-link " href="">Product</a></li>
+        <li class="nav-item"><a class="text-light a1 nav-link " href="">Service</a></li>
+
+        <li>
+          <div class="dropdown dip">
+            <button class="btn  text-light border-0  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Shop
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a class="text-light nav-link a1 " href="">Pages</a></li>
+        <li>
+          <div class="dropdown">
+            <button class="btn text-light border-0 dip  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Blog
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+
+            </ul>
+          </div>
+        </li>
+        <li><a class="text-light nav-link a1 " href="">Contact Us</a></li>
+      </ul>
+    </div>
+</div>
+  </nav>
+
+
+
+
+  <div class="navbar3 d-block d-lg-flex">
+
+    <div class="d-none d-lg-flex row b  bar3_list ">
+      <ul class="nav d-block text-light  ">
+        <li class="nav-iten dropend ">
+          <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="">New Arrivais</a>
+
+          <ul class="dropdown-menu bg-danger">
+            <li class="nav-item"><a class="nav-link dropdown-item" href="#">Action</a></li>
+            <li class="nav-item"><a class="nav-link dropdown-item" href="#">Another action</a></li>
+            <li class="nav-item"><a class="nav-link dropdown-item" href="#">Something else here</a></li>
+          </ul>
+
+        </li>
+        <li class="nav-item secend-hover"><a class="nav-link" href="">Best Selling</a>
+
+          <div class="card-group secend-card">
+            <div class="d-flex w secend-card-final"> 
+            <div class="card   secend-card1">
+              <a class="aaa w-25 m-2 p-2 m-auto my-3 ">Shop kid's</a>
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/mega-menu1.jpg" class="card-img-top"
+                alt="...">
+              <div class="card-body ">
+                <ul class="nav text-center ms-0">
+                  <li class="nav-item"><a class="nav-link text-dark" href="">kid's Toys</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark" href="">kid's travel car</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark" href="">kid's color Shope</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link text-dark" href="">kids tent</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="card  ">
+              <a class="aaa w-25 m-2 p-2 m-auto my-3">shop man's</a>
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/mega-menu2.jpg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <ul class="nav d-block ms-0">
+                  <li class="nav-item"><a class="nav-link text-dark" href="">Watch</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark" href="">T-Shirt</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark" href="">Hoodies</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark" href="">Formal pant</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="card  ">
+              <a class="aaa w-25 m-2 p-2 m-auto my-3">Shop kid's</a>
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/mega-menu3.jpg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+
+                <ul class="nav ms-0">
+                  <li class="nav-item"><a class="nav-link text-dark" href="">Ladies Shirt</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark" href="">Ladies frog</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark" href="">Ladies Sun Glass</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark" href="">Ladies watch</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+
+
+        </li>
+        <li class="nav-iten"><a class="nav-link" href="">Accessories</a></li>
+        <li class="nav-iten"><a class="nav-link" href="">Top 100 offer</a></li>
+        <li class="nav-iten"><a class="nav-link" href="">Sunglass</a></li>
+        <li class="nav-iten"><a class="nav-link" href="">Watch</a></li>
+        <li class="nav-iten"><a class="nav-link" href="">Man's product</a></li>
+        <li class="nav-iten"><a class="nav-link" href="">Ladies</a></li>
+        <li class="nav-iten"><a class="nav-link" href="">Westrn Dress</a></li>
+        <li class="nav-iten"><a class="nav-link" href="">Denim</a></li>
+      </ul>
+    </div>
+
+    <div class="navbar3-1 ">
+      <h4>UP TO 50% OFF</h4>
+      <h1>Shirt For Man</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque provident expedita illo dolorem eveniet, amet
+        neque veniam corporis cum beatae eligendi non! Iure ipsa voluptate, maiores sunt ipsum totam nobis.</p>
+
+      <a class="btn dip btn-dark" href="">SHOP NOW!</a>
+    </div>
+
+    <div class="Up">
+      <img class="" src="./img/business-service-marketing-png-favpng-00ZLtnMjKaPrzdVfrN3XV6eC4-removebg-preview.png"
+        alt="">
+    </div>
+  </div>
+
+
+  <div class="row m-0  row-cols-1 row-cols-md-2 row-cols-lg-3  py-4 gap-3 justify-content-center ">
+    <div class="col navbar3  card3  d-flex border p-3  ">
+      <div class="p-4">
+        <h5>Mon's Colletons</h5>
+        <h1>Summer Travel Collection</h1>
+        <span>DISCOVER NOW</span>
+      </div>
+
+      <img src="./img/Model-Man-PNG-File.png" alt="">
+
+    </div>
+    <div class="col header-body navbar3 card3 d-flex border p-3  ">
+      <div class="p-4">
+        <h5>Bag Collections</h5>
+        <h1> Awesome Bag 2022</h1>
+        <span>SHOP NOW</span>
+      </div>
+
+      <img src="./img/bag.png" alt="">
+
+    </div>
+    <div class="col header-body navbar3 card3 d-flex border p-3  ">
+      <div class="p-4">
+        <h5>Flash Sale</h5>
+        <h1>Mid Season Up To 40% Off</h1>
+        <span>DISCOVER NOW</span>
+      </div>
+
+      <img src="./img/773-7733483_shop-now-indian-women-model-png-removebg-preview.png" alt="">
+
+    </div>
+
+  </div>
+
+
+
+  <h1 class="text-center">Trending Item</h1>
+
+  <nav class="navbar4 ">
+    <ul class="nav nav-pills text-dark  justify-content-center nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation"><a class="nav-link active" href="#Man" id="pills-profile-tab"
+          data-bs-toggle="pill" aria-selected="false">MAN</a></li>
+
+      <li class="nav-item" role="presentation"><a class="nav-link" href="#Women" id="pills-profile-tab"
+          data-bs-toggle="pill" aria-selected="false">WOMEN</a></li>
+
+      <li class="nav-item" role="presentation"><a class="nav-link" href="#KIDS" id="pills-profile-tab"
+          data-bs-toggle="pill" aria-selected="false">KIDS</a></li>
+
+      <li class="nav-item" role="presentation"><a class="nav-link" href="#ACCESSORIES" id="pills-profile-tab"
+          data-bs-toggle="pill" aria-selected="false">ACCESSORIES</a></li>
+      <li class="nav-item" role="presentation"><a class="nav-link" href="#ESSENTIAL" id="pills-profile-tab"
+          data-bs-toggle="pill" aria-selected="false">ESSENTIAL</a></li>
+      <li class="nav-item" role="presentation"><a class="nav-link" href="#PRICES" id="pills-profile-tab"
+          data-bs-toggle="pill" aria-selected="false">PRICES</a></li>
+      <li class="nav-item" role="presentation">
+
+      </li>
+    </ul>
+  </nav>
+
+  <div class="tab-content  ">
+    <div class="tab-pane fade show  fade  active" id="Man" tabindex="0">
+      <div class="col-10 m-auto">
+        <div class="row m-0 row-cols-1  row-cols-sm-2 row-cols-md-3 row-cols-lg-4  cd1">
+          <div class="col">
+            <div class="card  m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p2.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p4.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p6.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p8.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p10.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p12.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p14.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p16.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade    fade " id="Women" tabindex="0">
+      <div class="d-flex  justify-content-center">
+        <div class="row row-cols-1  row-cols-sm-2 row-cols-md-3 row-cols-lg-4   cd1">
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p10.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p12.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p14.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p16.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p4.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p6.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p8.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p16.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade    fade " id="KIDS" tabindex="0">
+      <div class="d-flex  justify-content-center">
+        <div class="row row-cols-1  row-cols-sm-2 row-cols-md-3 row-cols-lg-4   cd1">
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p10.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p12.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p14.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p16.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p4.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p6.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p8.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p16.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade    fade " id="ACCESSORIES" tabindex="0">
+      <div class="d-flex  justify-content-center">
+        <div class="row row-cols-1  row-cols-sm-2 row-cols-md-3 row-cols-lg-4   cd1">
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p10.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p12.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p14.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p16.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p4.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p6.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p8.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p16.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade    fade " id="ESSENTIAL" tabindex="0">
+      <div class="d-flex  justify-content-center">
+        <div class="row row-cols-1  row-cols-sm-2 row-cols-md-3 row-cols-lg-4   cd1">
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p10.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p12.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p14.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p16.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p4.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p6.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p8.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p16.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade    fade " id="PRICES" tabindex="0">
+      <div class="d-flex  justify-content-center">
+        <div class="row row-cols-1  row-cols-sm-2 row-cols-md-3 row-cols-lg-4   cd1">
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p10.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p12.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p14.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p16.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p4.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p6.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p8.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2 ">
+              <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p16.jpg" alt="">
+
+              <div class="p-3">
+                <h6>Women Hot Collection</h6><br>
+                <h6> $29.00</h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Lite text-center text-light  ">
+    <div class="top-lite">
+      <div>
+        <span class="marg mt-4">Eshop Free Lite Version</span>
+        <h1>Currently You Are Using Free <br>
+          Lite Version Of Eshop.</h1>
+        <p>Please, purchase full version of the template to get all pages, <br>
+          features and commercial license.</p>
+        <a class="btn p-3  btn-light" href="">Purchase Now</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row  m-4 px-5">
+    <h2 class="col">On Sale</h2>
+    <h2 class="col">Best Seller</h2>
+    <h2 class="col"> Top Viewed</h2>
+  </div>
+
+
+
+
+  <div class="On-Sale    d-flex  justify-content-center ">
+    <div class="row m-0  mx-5 row-cols-1 row-cols-sm-2  row-cols-lg-3   ">
+ 
+      <div class="col">
+        <div class="card">
+          <div class="row">
+            <div class="col banner">
+              <img class="" src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list1.jpg" alt="">
+              <div class="shopping-icon">
+                <a href=""> <i class="fa-solid fa-bag-shopping"></i></a>
+              </div>
+            </div>
+            <div class="col my-5">
+              <h5 class="">
+                Licity jelly leg flat  Sandals
+              </h5>
+              <h4 class="mx-3 last-num">$59</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="row">
+            <div class="col banner">
+              <img class="" src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list4.jpg" alt="">
+              <div class="shopping-icon">
+                <a href=""> <i class="fa-solid fa-bag-shopping"></i></a>
+              </div>
+            </div>
+            <div class="col my-5">
+              <h5 class="">
+                Licity jelly leg flat Sandals
+              </h5>
+              <h4 class="mx-3 last-num">$44</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="row">
+            <div class="col banner">
+              <img class="" src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list7.jpg" alt="">
+              <div class="shopping-icon">
+                <a href=""> <i class="fa-solid fa-bag-shopping"></i></a>
+              </div>
+            </div>
+            <div class="col my-3">
+              <h5 class="">
+                Licity jelly leg flat Sandals
+              </h5>
+              <h4 class="mx-3 last-num">$89</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="row">
+            <div class="col banner">
+              <img class="" src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list2.jpg" alt="">
+              <div class="shopping-icon">
+                <a href=""> <i class="fa-solid fa-bag-shopping"></i></a>
+              </div>
+            </div>
+            <div class="col my-3">
+              <h5 class="">
+                Licity jelly leg flat  Sandals
+              </h5>
+              <h4 class="mx-3 last-num">$49</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="row">
+            <div class="col banner">
+              <img class="" src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list5.jpg" alt="">
+              <div class="shopping-icon">
+                <a href=""> <i class="fa-solid fa-bag-shopping"></i></a>
+              </div>
+            </div>
+            <div class="col my-3">
+              <h5 class="">
+                Licity jelly leg flat Sandals
+              </h5>
+              <h4 class="mx-3 last-num">$60</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="row">
+            <div class="col banner">
+              <img class="" src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list8.jpg" alt="">
+              <div class="shopping-icon">
+                <a href=""> <i class="fa-solid fa-bag-shopping"></i></a>
+              </div>
+            </div>
+            <div class="col my-3">
+              <h5 class="">
+                Licity jelly leg flat Sandals
+              </h5>
+              <h4 class="mx-3 last-num">$79</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="row">
+            <div class="col banner">
+              <img class="" src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list6.jpg" alt="">
+              <div class="shopping-icon">
+                <a href=""> <i class="fa-solid fa-bag-shopping"></i></a>
+              </div>
+            </div>
+            <div class="col my-3">
+              <h5 class="">
+                Licity jelly leg flat  Sandals
+              </h5>
+              <h4 class="mx-3 last-num">$44</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="row">
+            <div class="col banner">
+              <img class="" src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list3.jpg" alt="">
+              <div class="shopping-icon">
+                <a href=""> <i class="fa-solid fa-bag-shopping"></i></a>
+              </div>
+            </div>
+            <div class="col my-3">
+              <h5 class="">
+                Licity jelly leg flat <br> Sandals
+              </h5>
+              <h4 class="mx-3 last-num" >$59</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="row">
+            <div class="col banner">
+              <img class="" src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list9.jpg" alt="">
+              <div class="shopping-icon">
+                <a href=""> <i class="fa-solid fa-bag-shopping"></i></a>
+              </div>
+            </div>
+            <div class="col my-3">
+              <h5 class="">
+                Licity jelly leg flat Sandals
+              </h5>
+              <h4 class="mx-3 last-num">$89</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+  <br><br><br>
+
+
+  <div class="last-h">
+    <div class="text-center  ">
+      <h1>From Our Blog</h1>
+    </div>
+  </div>
+
+
+  <div class="last-img m-0 row row-cols-1 row-cols-md-2 row-cols-lg-3">
+
+    <div class="col">
+      <div class="card ">
+        <img src="https://wpthemesgrid.com/themes/free/eshop/images/blog1.jpg" alt="">
+        <div class="text-center m-5">
+          <span class="mute">22 July, 2020. Monday</span>
+          <h5>Sed adipiscing ornare.</h5>
+          <a class="nav-link m-3" href="">Continue Reading</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card ">
+        <img src="https://wpthemesgrid.com/themes/free/eshop/images/blog3.jpg" alt="">
+        <div class="text-center m-5">
+          <span class="mute">22 July, 2020. Monday</span>
+          <h5>Sed adipiscing ornare.</h5>
+          <a class="nav-link m-3" href="">Continue Reading</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card ">
+        <img src="https://wpthemesgrid.com/themes/free/eshop/images/blog2.jpg" alt="">
+        <div class="text-center m-5">
+          <span class="mute">22 July, 2020. Monday</span>
+          <h5>Sed adipiscing ornare.</h5>
+          <a class="nav-link m-3" href="">Continue Reading</a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+  <div class="FREE-SHIPING py-5">
+    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4  justify-content-center  col-12 col-md-8 m-auto">
+      <div class="col">
+        <div class="d-block d-md-flex   text-center">
+          <div class="me-4">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </div>
+          <div class="">
+            <h6 class="">FREE SHIPING</h6>
+            <h6 class="text-muted">Orders over $1000</h6>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col">
+        <div class="d-block d-md-flex bo rder text-center">
+          <div class="me-4">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </div>
+          <div class="">
+            <h6 class=""> FREE RETURN</h6>
+            <h6 class="text-muted">Within 30 days returns</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="col"> 
+        <div class="d-block d-md-flex border text-center">
+          <div class="me-4">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div class="">
+            <h6 class="">SUCURE PAYMENT</h6>
+            <h6 class="text-muted">100% secure payment</h6>
+          </div>
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="d-block d-md-flex border text-center">
+          <div class="me-4"> <i class="fa-solid fa-rocket"></i></div>
+          <div class="">
+            <h6 class="">BEST PEICE</h6>
+            <h6 class="text-muted">Guaranteed price</h6>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <div class="last-input">
+
+    <div>
+      <h4 class="text-bold">NEWSLETTER</h4>
+      <p class="text-muted">Subscribe to our newsletter and get <span class="ten">10%</span> off your first purchase</p>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <div class="input-group  l-search ">
+        <input type="text" class="form-control  " placeholder="Your email address" aria-label="Your email address"
+          aria-describedby="basic-addon2">
+        <span class="input-group-text " id="basic-addon2">
+          <!-- <button class="btn sub0 border-0" href="">SUBSCRIBE</button> -->
+          SUBSCRIBE
+
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+
+
+ 
+
+  <div class="last-footer">
+    <div class="d-flex m-0  row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4  ">
+
+      <div class="col">
+        <div class="lastfo-1 ">
+          <div class="d-flex">
+            <h1>Eshop</h1> <a href=""><i class="fa-solid   fa-circle"></i></a>
+          </div>
+          <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, magna eros eu erat. Aliquam erat
+            volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+          <h6>Got Question? Call us 24/7</h6>
+          <h4><a class="nav-link num0" href="">+0123 456 789</h4></a>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="lastfo-2  ">
+          <h4>Information</h4>
+          <ul class="list-group">
+            <li class="nav-link m-2"><a class="nav-link" href="">About Us</a></li>
+            <li class="nav-link m-2"><a class="nav-link" href="">Faq</a></li>
+            <li class="nav-link m-2"><a class="nav-link" href="">Terms & Conditions</a></li>
+            <li class="nav-link m-2"><a class="nav-link" href="">Contact Us</a></li>
+            <li class="nav-link m-2"><a class="nav-link" href="">Help</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="lastfo-2  ">
+          <h4>Customer Service</h4>
+          <ul class="list-group">
+            <li class="nav-link m-2"><a class="nav-link" href="">Payment Methods</a></li>
+            <li class="nav-link m-2"><a class="nav-link" href="">Money-back</a></li>
+            <li class="nav-link m-2"><a class="nav-link" href="">Returns</a></li>
+            <li class="nav-link m-2"><a class="nav-link" href="">Shipping</a></li>
+            <li class="nav-link m-2"><a class="nav-link" href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="lastfo-3  ">
+          <h4>Get In Tuch</h4>
+          <ul class="list-group">
+            <li class="nav-link m-1 mt-2"><a class="nav-link" href="">NO. 342 - London Oxford Street.</a></li>
+            <li class="nav-link m-1"><a class="nav-link" href="">012 United Kingdom.</a></li>
+            <li class="nav-link m-1"><a class="nav-link" href="">info@eshop.com</a></li>
+            <li class="nav-link m-1"><a class="nav-link" href="">+032 3456 7890</a></li>
+            <li class="nav-link m-1"><a class="nav-link" href=""><i class="fa-brands m-2 fa-facebook"></i> <i
+                  class="fa-brands m-2 fa-twitter"></i> <i class="fa-brands m-2 fa-instagram"></i> </a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="d-flex justify-content-between my-5   bbr">
+      <div class="mt-4">
+        <span class="text-light">Copyright © 2020 <a href=""> Wpthemesgrid</a> - All Rights Reserved.</span>
+      </div>
+
+      <div class="mt-4">
+        <img src="https://wpthemesgrid.com/themes/free/eshop/images/payments.png" alt="">
+      </div>
+
+    </div>
+
+
+
+
+
+
+  </div>
+ 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
